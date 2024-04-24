@@ -1,16 +1,15 @@
-def validate_float(input_str):
-    if len(input_str)==1:
-        return False
-    try:
-        float_value = float(input_str)
-        return True
-    except ValueError:
-        return False
-n=int(input())
-for _ in range(n):
-    
-    user_input = input()
-    if validate_float(user_input):
-        print("True")
-    else:
-        print("False")
+s=2 
+    # t=size-1       
+    # for i in range(size-1):
+    #     z=size
+    #     print("-"*s, end="")
+    #     for j in range(t):
+    #         print(chr(z+96), end="-")
+    #         z-=1
+    #     z+=2
+    #     for k in range(t-1):
+    #         print(chr(z+96), end="-")
+    #         z+=1
+    #     print("-"*(s-1))
+    #     s+=2
+    #     t-=1
